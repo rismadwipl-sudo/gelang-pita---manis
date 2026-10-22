@@ -1,0 +1,131 @@
+/* Pengaturan umum halaman */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #FDF2F8;
+    color: #4A3F55;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Bagian atas: judul dan menu */
+header {
+    background-color: #FBCFE8;
+    text-align: center;
+    padding: 20px 15px 15px;
+}
+
+header h1 {
+    color: #BE185D;
+    margin: 0;
+}
+
+.slogan {
+    color: #831843;
+    margin: 5px 0 15px;
+}
+
+/* Menu navigasi */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #BE185D;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #F9A8D4;
+}
+
+/* Isi halaman */
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.kartu {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(219, 39, 119, 0.15);
+}
+
+.kartu h2 {
+    color: #7C3AED;
+    text-align: center;
+}
+
+.kartu img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Kotak keunggulan */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+}
+
+.kotak {
+    background-color: #FDF2F8;
+    padding: 15px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.kotak span {
+    font-size: 2rem;
+}
+
+.kotak h3 {
+    color: #BE185D;
+    margin: 5px 0;
+}
+
+/* Tabel harga */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #FBCFE8;
+    color: #831843;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #FCE7F3;
+}
+
+tr:nth-child(even) td {
+    background-color: #FDF4FF;
+}
+
+/* Bagian bawah */
+footer {
+    background-color: #FBCFE8;
+    color: #831843;
+    text-align: center;
+    padding: 15px;
+}
